@@ -1,7 +1,15 @@
 # API-Status-Sungai-Jakarta
-Unofficial API Service for Tinggi Air Sungai di Jakarta beserta statusnya.
+Unofficial API Service for Tinggi Pintu Air di Jakarta beserta statusnya.
 
-endpointnya adalah http://localhost:8000/getTinggiAir , ketika melakukan hit endpoint tersebut, maka akan dilakukan proses web scraping ke alamat http://poskobanjirdsda.jakarta.go.id/ dan akan mengembalikan return response berbentu json array, contohnya sebagai berikut :
+
+Working Example :
+1. https://banjeer.herokuapp.com/gettinggiair
+2. https://banjeer.herokuapp.com/gettinggiair/{kode lokasi pengamatan}
+
+Kode Lokasi Pengamatan 
+![alt text](https://firebasestorage.googleapis.com/v0/b/login-laporan-rapat.appspot.com/o/kode%20lokasi%20pengamatan.PNG?alt=media&token=7992502e-2a54-4534-9731-bf1e48d1b09d?raw=true)
+
+Ketika dilakukan hit terhadap endpoint tersebut, maka akan dilakukan proses web scraping ke alamat http://poskobanjirdsda.jakarta.go.id/ dan akan mengembalikan return response berbentuk json array, contohnya sebagai berikut :
 
 ```json
 [
