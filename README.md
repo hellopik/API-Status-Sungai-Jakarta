@@ -4,7 +4,7 @@ Unofficial API Service for Tinggi Pintu Air di Jakarta beserta statusnya.
 
 Working Example :
 1. https://banjeer.herokuapp.com/gettinggiair
-2. https://banjeer.herokuapp.com/gettinggiair/[kode lokasi pengamatan] , misalnya untuk Pintu Air Manggarai urlnya menjadi https://banjeer.herokuapp.com/gettinggiair/MGGRI
+2. https://banjeer.herokuapp.com/gettinggiair/kode_lokasi_pengamatan , misalnya untuk Pintu Air Manggarai urlnya menjadi https://banjeer.herokuapp.com/gettinggiair/MGGRI
 
 Kode Lokasi Pengamatan :
 ![alt text](https://github.com/hellopik/API-Status-Sungai-Jakarta/blob/master/kode%20lokasi%20pengamatan.PNG?raw=true)
