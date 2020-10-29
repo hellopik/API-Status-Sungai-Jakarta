@@ -4,12 +4,12 @@ Unofficial API Service for Tinggi Pintu Air di Jakarta beserta statusnya.
 
 Working Example :
 1. https://banjeer.herokuapp.com/gettinggiair
-2. https://banjeer.herokuapp.com/gettinggiair/{kode lokasi pengamatan}
+2. https://banjeer.herokuapp.com/gettinggiair/[kode lokasi pengamatan] , misalnya untuk Pintu Air Manggarai urlnya menjadi https://banjeer.herokuapp.com/gettinggiair/MGGRI
 
-Kode Lokasi Pengamatan 
-![alt text](https://firebasestorage.googleapis.com/v0/b/login-laporan-rapat.appspot.com/o/kode%20lokasi%20pengamatan.PNG?alt=media&token=7992502e-2a54-4534-9731-bf1e48d1b09d?raw=true)
+Kode Lokasi Pengamatan :
+![alt text](https://github.com/hellopik/API-Status-Sungai-Jakarta/blob/master/kode%20lokasi%20pengamatan.PNG?raw=true)
 
-Ketika dilakukan hit terhadap endpoint tersebut, maka akan dilakukan proses web scraping ke alamat http://poskobanjirdsda.jakarta.go.id/ dan akan mengembalikan return response berbentuk json array, contohnya sebagai berikut :
+Ketika dilakukan hit terhadap endpoint yang ada, maka akan dilakukan proses web scraping ke alamat http://poskobanjirdsda.jakarta.go.id/ dan akan mengembalikan return response berbentuk json array, contohnya sebagai berikut :
 
 ```json
 [
